@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+<!-- for navigation bar-->
+body {
+    font-size: 28px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: red;
+}
+
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 0px;
+  background-color: white;
+  padding: 10px;
+}
+.grid-container > div {
+ 
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+
+
+
+
+
+</style>
+</head>
+<body>
+
+<body bgcolor="grey">
+
+
+
+
+<img src="shopping.jpg" style="width:100%;">
+
+<!-- for adding nav bar-->
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="imageslide.html"  style="width:100%;">Todays deals</a></li>
+  <li><a href="#contact">Customer service</a></li>
+<li style="float:right"><a href="#login">Login</a></li>
+</ul>
+
+<h1 style="margin-left:400px;">
+WELCOME TO HAPPIE SHOP !!! </h1>
+<h2 style="margin-left:400px;">
+A GOOD ONLINE STORE FOR GOOD PEOPLE </h2>
+
+
+<P>
+New user sign up here
+</p>
+<form>
+<input type="submit" value="SIGNUP">
+</form>
+<p style="margin-left:550px;">
+SELECT THE CATEGORY
+</p>
+
+<select style="margin-left:550px;">
+  <option value="vol">WATCH</option>
+  <option value="saab">SHOES</option>
+  <option value="opel">FURNITURE ITEMS</option>
+  <option value="audi">ELECRONICS </option>
+<option value="audi">CLOTHES </option>
+<option value="audi">KITCHEN PRODUCTS </option>
+</select>
+<form action="/action_page.php"  style="margin-left:550px;">
+
+  <input type="text" name="lname" placeholder="SEARCH AN ITEM"><br>
+  <input type="submit" value="SEARCH">
+<p></p>
+
+</form>
+<title>
+HAPPY SHOP </TITLE>
+
+
+
+
+<div class="grid-container">
+  <div>
+<a href="imageslide.html">
+<img src="clothes.jpg" style="width:100%;"> </a>
+
+
+Buy clothes for both men and women</div>
+  <div><img src="electronics.jpg" style="width:100%;">
+Buy electronic devices [GET UPTO 80% DISCOUND]</div>
+  <div><img src="watches.jpeg" style="width:100%;">
+ Buy Watches for both men and women</div>  
+  <div><img src="furnitures.jpg" style="width:100%;">
+Buy furnitures and get upto 80% DISCOUND</div>
+  <div><img src="shoes.jpg" style="width:100%;">
+Buy shoes  for both men and women</div>
+<div><img src="kitchen.jpg" style="width:100%;">
+Buy coffee powders of many brands</div>
+<div>nil</div>
+<div><img src="coffee.jpeg" style="width:100%;">
+Buy home and kitchen products at low cost</div>  </div>
+
+
+
+
+
+</body>
+</html>
